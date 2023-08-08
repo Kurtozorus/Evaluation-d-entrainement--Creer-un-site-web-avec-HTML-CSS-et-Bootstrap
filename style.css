@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fond {
+    background-image:url(assets/images/foond.png);
+    width: 375px;
+    height: 812px;
+}
+p {
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Shadows Into Light', cursive;
+}
+h3 {
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Shadows Into Light', cursive;
+}
+h1, h2 {
+    font-family: Abril Fatface;
+}
+/* ------------------------------------------Header------------------------------------------ */
+.navbar {
+    list-style: none;
+}
+.navlink {
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 38px;
+    color: aliceblue;
+}
+.navlink:hover {
+    background-color: gold;
+  }
