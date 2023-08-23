@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-.fond {
+/* .fond {
     background-image:url(assets/images/foond.png);
     width: 375px;
     height: 812px;
-}
+} */
 p {
     font-family: 'Abril Fatface', cursive;
 
@@ -40,3 +40,4 @@ h1, h2 {
 .navlink:hover {
     background-color: gold;
   }
+/* -----------------------------------------Main--------------------------------------------- */
