@@ -19,14 +19,42 @@
   <header>
     <div class="d-flex justify-content-center">
       <h1 class="align-self-center text-danger">ASPTT</h1>
-      <img class="align-self-center" src="assets/images/Ping-Pong-Ball-PNG-Photos.png" width="100px" height="100"
+      <img class="align-self-center" id="main-page" src="assets/images/Ping-Pong-Ball-PNG-Photos.png" width="100px" height="100"
         alt="">
       <h2 class="align-self-center text-primary">Romans</h2>
     </div>
+    <ul class="menu justify-content-center pt-5">
+      <li class="list-unstyled"><a href="#club" class="navlink "><svg xmlns="http://www.w3.org/2000/svg" width="32"
+            height="32" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+            <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z" />
+            <path
+              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+          </svg> Le Club</a></li>
+      <li class="list-unstyled"><a href="#inscription" class="navlink"><svg xmlns="http://www.w3.org/2000/svg"
+            width="32" height="32" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+            <path
+              d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
+          </svg> Inscription</a></li>
+      <li class="list-unstyled"><a href="#tarifs" class="navlink"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+            height="32" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+            <path
+              d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z" />
+          </svg> Tarif</a></li>
+      <li class="list-unstyled"><a href="#horaires" class="navlink"><svg xmlns="http://www.w3.org/2000/svg"
+            width="32" height="32" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+          </svg> Horaire</a></li>
+      <li class="list-unstyled"><a href="#contact" class="navlink"><svg xmlns="http://www.w3.org/2000/svg"
+            width="32" height="32" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+            <path
+              d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+          </svg> Contact</a></li>
+    </ul>
     <ul class="navbar d-flex flex-column position absolute">
       <!-- <nav class="navbar navbar-dark bg-dark"> -->
       <div>
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+        <button class="hamb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
           aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,29 +63,29 @@
         <!-- <div class="bg-dark p-4"> -->
         <!-- </nav> -->
         <ul>
-          <li class="list-unstyled"><a href="#club" class="navlink "><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
+          <li class="list-unstyled"><a href="#club" class="navlink "><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                height="32" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
                 <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z" />
                 <path
                   d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
               </svg> Le Club</a></li>
-          <li class="list-unstyled"><a href="#inscription" class="navlink"><svg xmlns="http://www.w3.org/2000/svg" width="32"
-                height="32" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+          <li class="list-unstyled"><a href="#inscription" class="navlink"><svg xmlns="http://www.w3.org/2000/svg"
+                width="32" height="32" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
                 <path
                   d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z" />
               </svg> Inscription</a></li>
-          <li class="list-unstyled"><a href="#tarifs" class="navlink"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+          <li class="list-unstyled"><a href="#tarifs" class="navlink"><svg xmlns="http://www.w3.org/2000/svg" width="32"
+                height="32" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
                 <path
                   d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z" />
               </svg> Tarif</a></li>
-          <li class="list-unstyled"><a href="#horaires" class="navlink"><svg xmlns="http://www.w3.org/2000/svg" width="32"
-                height="32" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+          <li class="list-unstyled"><a href="#horaires" class="navlink"><svg xmlns="http://www.w3.org/2000/svg"
+                width="32" height="32" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
                 <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
                 <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
               </svg> Horaire</a></li>
-          <li class="list-unstyled"><a href="#contact" class="navlink"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+          <li class="list-unstyled"><a href="#contact" class="navlink"><svg xmlns="http://www.w3.org/2000/svg"
+                width="32" height="32" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
                 <path
                   d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
               </svg> Contact</a></li>
@@ -66,169 +94,178 @@
     </ul>
   </header>
   <main>
-    <article class="container-fluid">
+    <article class="container-fluid mt-5">
       <div class="row">
         <div class="col-12">
-          <h2 id="club" class="d-flex justify-content-center p-1 text-decoration-underline">Le club</h2>
-          <h3 class="bg-warning ms-3 me-3">Créée en 1971, la section Tennis de table de l'ASPTT évolue au plus haut niveau
+          <h2 id="club" class="d-flex justify-content-center p-1 text-decoration-underline mb-5">Le club</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 class="bg-warning ms-3 me-3">Créée en 1971, la section Tennis de table de l'ASPTT évolue au plus haut
+            niveau
             du sport amateur de notre région.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <img src="/assets/images/leclub.webp" class="img-fluid text-center d-block mx-auto"
-            alt="photo d'enfants jouant au ping pong"> 
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <p class="ms-3 me-3">Dernière étape avant la PRO, fleuron du Tennis de table national. Avec prés de 400 licenciés,
+          <img src="assets/images/leclub.webp" class="img-fluid text-center d-block mx-auto"
+            alt="photo d'enfants jouant au ping pong">
+          <p class="ms-3 me-3">Dernière étape avant la PRO, fleuron du Tennis de table national. Avec prés de 400
+            licenciés,
             notre association figure parmi les clubs de tennis de table les plus importants en Rhône Alpes et se place
             notamment en 1ere position en nombre de féminines. <br>
-            Grâce au travail de nos entraîneurs et de nos bénévoles, notre école de tennis de table a formé des joueurs de
+            Grâce au travail de nos entraîneurs et de nos bénévoles, notre école de tennis de table a formé des joueurs
+            de
             très haut niveau. Ainsi Andréa LANDRIEU a obtenu en 2011 le titre de champion d'Eupore cadet en individuel.
             Joris REYNAUD a été champion de france minime en 2012 et Bilal HAMACHE remporte en 2016 les championnats de
             France Cadets en simple et en double et obtient le titre de vice champion de france Junior. <br>
             L'ASPTT Romans compte 8 équipes qui évoluent aux niveaux départemental, régional et national. Les équipes
-            fanions disputent le championnats de France Nationale 1 Messieurs et Pré Nationale Dames. Par la qualité de sa
+            fanions disputent le championnats de France Nationale 1 Messieurs et Pré Nationale Dames. Par la qualité de
+            sa
             formation et des structures, notre club a obtenu le lable 4 étoiles décerné par la Fédération Francaise de
             Tennis de Table(FFTT).</p>
         </div>
-      </div>
-      <h3 class="bg-warning ms-3 me-3">Notre section s'est également investie dans la promotion du Tennis de Table
-        auprés des presonnes en situtation de handicap.</h3>
-      <p class="ms-3 me-3">Notre entraîneur salarié a ainsi bénéficié d'une formation spécifique, (Certificat de
-        Qualificatin Handisport - Physhique et Sensoriel). Notre club a organisé le 30 mars 2019 le CRITERIUM NATIONALE
-        1 HANDISPORT avec la présence de champions du monde, Europe et France</p>
-      <h3 class="bg-warning ms-3 me-3">Frédéric Poirot: le chargé de développement à votre service.</h3>
-      <p class="ms-3 me-3">Une nouvelle et grande initiative est née cette année car elle mûrissait depuis quelques
-        temps. Pour développer encore plus l'image du club et la qualité de sa communication ainsi que la mise en oeuvre
-        d'événements, nous avons décidé d'ouvrir un poste de chargé de développement. Il a la responsabilité d'améliorer
-        la communication, les événements et le partenariat du club. Ceposte a été confié à Frédéric Poirot, votre nouvel
-        interlocuteur pour votre partenariat. <br>
-        <br>
-        Afin de financer ces activités, notre association a besoin de votre soutien. Vous trouverez dans les pages
-        suivantes le détail des formes de partenariat que nous pouvons développer ensemble.
-      </p>
-    </article>
-    <article class="container-fluid">
-      <div style=" height: 900px;">
-        <h2 id="inscription" class="d-flex justify-content-center pb-3 text-decoration-underline">Inscription</h2>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Inscription</li>
-            <li class="breadcrumb-item"><a href="#tarifs">Tarifs</a></li>
-          </ol>
-          <ol class="breadcrumb pb-3">
-            <li class="breadcrumb-item"><a href="#horaires">Horaire</a></li>
-            <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
-          </ol>
-        </nav>
-        <div class="row">
-          <div class="col-sm-4">
-            <p>Pour une inscription</p>
-          </div>
+
+        <div class="col-sm-4">
+          <h3 class="bg-warning ms-3 me-3">Notre section s'est également investie dans la promotion du Tennis de Table
+            auprés des presonnes en situtation de handicap.</h3>
+          <p class="ms-3 me-3">Notre entraîneur salarié a ainsi bénéficié d'une formation spécifique, (Certificat de
+            Qualificatin Handisport - Physhique et Sensoriel). Notre club a organisé le 30 mars 2019 le CRITERIUM
+            NATIONALE
+            1 HANDISPORT avec la présence de champions du monde, Europe et France</p>
         </div>
-        <div class="row justify-content-center" >
-          <div class="col col-sm-4 ">
-            <object data="/assets/images/FICHE-ADHESION-2022-2023.pdf" width="375px" height="450px"></object>
-          </div>
+        <div class="col-sm-4">
+          <h3 class="bg-warning ms-3 me-3">Frédéric Poirot: le chargé de développement à votre service.</h3>
+          <p class="ms-3 me-3">Une nouvelle et grande initiative est née cette année car elle mûrissait depuis quelques
+            temps. Pour développer encore plus l'image du club et la qualité de sa communication ainsi que la mise en
+            oeuvre
+            d'événements, nous avons décidé d'ouvrir un poste de chargé de développement. Il a la responsabilité
+            d'améliorer
+            la communication, les événements et le partenariat du club. Ceposte a été confié à Frédéric Poirot, votre
+            nouvel
+            interlocuteur pour votre partenariat. <br>
+            <br>
+            Afin de financer ces activités, notre association a besoin de votre soutien. Vous trouverez dans les pages
+            suivantes le détail des formes de partenariat que nous pouvons développer ensemble.
+          </p>
         </div>
-        <div class="col-sm-4"></div>
-        <p>Télécharger le Document :</p>
-        <a href="assets/images/FICHE-ADHESION-2022-2023.pdf">FICHE-ADHESION-2022-2023.pdf</a>
-      </div>
-    </article>
-    <article>
-      <div class="container-fluid">
-        <div style="height: 900px;">
-          <h2 id="tarifs" class="d-flex justify-content-center p-1 text-decoration-underline">Les tarifs</h2>
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
-              <li class="breadcrumb-item"><a href="#inscription">Inscription</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Tarifs</li>
-            </ol>
-            <ol class="breadcrumb pb-3">
-              <li class="breadcrumb-item"><a href="#horaires">Horaire</a></li>
-              <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
-            </ol>
-          </nav>
-            <div class="row justify-content-center">
+
+        <article class="container-fluid">
+          <div style=" height: 900px;">
+            <h2 id="inscription" class="d-flex justify-content-center pb-3 text-decoration-underline mb-5">Inscription</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Inscription</li>
+                <li class="breadcrumb-item"><a href="#tarifs">Tarifs</a></li>
+              </ol>
+              <ol class="breadcrumb pb-3">
+                <li class="breadcrumb-item"><a href="#horaires">Horaire</a></li>
+                <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
+              </ol>
+            </nav>
+            <div class="row">
               <div class="col-sm-4">
-                <object data="/assets/images/TARIFS-2022-2023.pdf" width="375px" height="550px"></object>
+                <p>Pour une inscription</p>
               </div>
             </div>
-          <p>Télécharger le Document :</p>
-          <a href="assets/images/FICHE-ADHESION-2022-2023.pdf">TARIF-2022-2023.pdf</a>
-        </div>
-      </div>
-      </article>
-      <article>
-        <div style="height: 900px;">
-        <h2 id="horaires" class="d-flex justify-content-center p-1 text-decoration-underline">Les horaires</h2>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
-            <li class="breadcrumb-item"><a href="#inscription">Inscription</a></li>
-            <li class="breadcrumb-item"><a href="#tarifs">Tarifs</a></li>
-          </ol>
-          <ol class="breadcrumb pb-3">
-            <li class="breadcrumb-item active" aria-current="page">Horaire</li>
-            <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
-          </ol>
-        </nav>
-        <div class="container">
-          <div class="row">
-            <div class="col-8 col-sm-4"></div>
-          </div>
-        </div>
-        <img src="/assets/images/planning2022-2023.jpg" class="img-fluid" alt="Horaire des différents">
-      </div>
-    </article>
-    <article>
-      <div style="height: 900px;">
-        <h2 id="contact" class="d-flex justify-content-center p-1 text-decoration-underline">Contact</h2>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
-            <li class="breadcrumb-item"><a href="#inscription">Inscription</a></li>
-            <li class="breadcrumb-item"><a href="#tarifs">Tarifs</a></li>
-          </ol>
-          <ol class="breadcrumb pb-3">
-            <li class="breadcrumb-item"><a href="#horaires">Horaire</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contact</li>
-          </ol>
-        </nav>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-6 col-sm-4">NOUS CONTACTER</div>
-            <div class="col-6 col-sm-4">ADRESSE DU CLUB & GYMNASE</div>
-
-            <!-- Force next columns to break to new line at md breakpoint and up -->
-            <div class="w-100 d-none d-md-block"></div>
-
-            <div class="col-6 col-sm-4"><a href="tel:+0475053250"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                  height="16" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
-                  <path
-                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z" />
-                </svg> : 04 75 02 32 50</a> <br>
-              <a href="mailto:romans.asptt@orange.fr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                  fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
-                  <path
-                    d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
-                  <path
-                    d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
-                </svg> : romans.asptt@orange.fr</a>
+            <div class="row justify-content-center">
+              <div class="col col-sm-4 ">
+                <object data="assets/images/FICHE-ADHESION-2022-2023.pdf" width="375px" height="450px"></object>
+              </div>
             </div>
-            <div class="col-6 col-sm-4 text-danger">ASPTT ROMANS <br> GYMANSE ARAGON <br>ROUTE DE GENISSIEUX <br> 26100 ROMANS SUR
-              ISERE</div>
+            <div class="col-sm-4"></div>
+            <p>Télécharger le Document :</p>
+            <a href="assets/images/FICHE-ADHESION-2022-2023.pdf">FICHE-ADHESION-2022-2023.pdf</a>
           </div>
-        </div>
-      </div>
+        </article>
+        <article>
+          <div class="container-fluid">
+            <div style="height: 900px;">
+              <h2 id="tarifs" class="d-flex justify-content-center p-1 text-decoration-underline mb-5">Les tarifs</h2>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
+                  <li class="breadcrumb-item"><a href="#inscription">Inscription</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Tarifs</li>
+                </ol>
+                <ol class="breadcrumb pb-3">
+                  <li class="breadcrumb-item"><a href="#horaires">Horaire</a></li>
+                  <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
+                </ol>
+              </nav>
+              <div class="row justify-content-center">
+                <div class="col-sm-4">
+                  <object data="assets/images/TARIFS-2022-2023.pdf" width="375px" height="550px"></object>
+                </div>
+              </div>
+              <p>Télécharger le Document :</p>
+              <a href="assets/images/FICHE-ADHESION-2022-2023.pdf">TARIF-2022-2023.pdf</a>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div style="height: 900px;">
+            <h2 id="horaires" class="d-flex justify-content-center p-1 text-decoration-underline mb-5">Les horaires</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
+                <li class="breadcrumb-item"><a href="#inscription">Inscription</a></li>
+                <li class="breadcrumb-item"><a href="#tarifs">Tarifs</a></li>
+              </ol>
+              <ol class="breadcrumb pb-3">
+                <li class="breadcrumb-item active" aria-current="page">Horaire</li>
+                <li class="breadcrumb-item"><a href="#contact">Contact</a></li>
+              </ol>
+            </nav>
+            <div class="container">
+              <div class="row justify-content-center">
+                <img src="assets/images/planning2022-2023.jpg" class="img-fluid tailleimg" alt="Horaire des différents">
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div style="height: 900px;">
+            <h2 id="contact" class="d-flex justify-content-center p-1 pt-5 text-decoration-underline mb-5">Contact</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#club">Le Club</a></li>
+                <li class="breadcrumb-item"><a href="#inscription">Inscription</a></li>
+                <li class="breadcrumb-item"><a href="#tarifs">Tarifs</a></li>
+              </ol>
+              <ol class="breadcrumb pb-3">
+                <li class="breadcrumb-item"><a href="#horaires">Horaire</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+              </ol>
+            </nav>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6 col-sm-4">NOUS CONTACTER</div>
+                <div class="col-6 col-sm-4">ADRESSE DU CLUB & GYMNASE</div>
 
-    </article>
+                <!-- Force next columns to break to new line at md breakpoint and up -->
+                <div class="w-100 d-none d-md-block"></div>
+
+                <div class="col-6 col-sm-4"><a href="tel:+0475053250"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                      height="16" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z" />
+                    </svg> : 04 75 02 32 50</a> <br>
+                  <a href="mailto:romans.asptt@orange.fr"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                      <path
+                        d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+                      <path
+                        d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                    </svg> : romans.asptt@orange.fr</a>
+                </div>
+                <div class="col-6 col-sm-4 text-danger">ASPTT ROMANS <br> GYMANSE ARAGON <br>ROUTE DE GENISSIEUX <br>
+                  26100
+                  ROMANS SUR
+                  ISERE</div>
+              </div>
+            </div>
+          </div>
+
+        </article>
 
   </main>
 

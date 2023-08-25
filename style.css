@@ -41,3 +41,29 @@ h1, h2 {
     background-color: gold;
   }
 /* -----------------------------------------Main--------------------------------------------- */
+.tailleimg {
+    max-height: 80vh;
+}
+/*----------------------------------------media querie--------------------------------------- */
+@media (min-width: 575.98px) {
+    button.hamb {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+    .navlink {
+        color: black;
+        justify-content: space-between;
+        padding-left: 30px;
+    }
+    .navlink:hover {
+        background-color: white;
+        text-decoration: underline;
+      }
+}
+@media (max-width: 575.98px) {
+    .menu {
+        display: none;
+    }
+}
