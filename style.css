@@ -1,8 +1,8 @@
+/* -------reset------- */
 * {
     margin: 0;
     padding: 0;
 }
-
 /* .fond {
     background-image:url(assets/images/foond.png);
     width: 375px;
@@ -43,7 +43,7 @@ h1, h2 {
 }
 /*----------------------------------------media querie--------------------------------------- */
 @media all and ( min-width: 320px) and (max-width:768px) {
-    
+
 }
 @media (min-width: 991.98px) {
     button.hamb {
@@ -56,7 +56,7 @@ h1, h2 {
         color: white;
         justify-content: space-between;
         padding-left: 30px;
-        
+
     }
     .navlink:hover {
         background-color: white;
@@ -68,7 +68,11 @@ h1, h2 {
     ul.dropdown {
         font-size: 1.0em;
     }
-    .poslogo {
+    .poslogo1 {
+        left: 40%;
+    }
+    /* --logo Evénement page-- */
+    .poslogo2 {
         left: 40%;
     }
     .data1 {
@@ -95,14 +99,15 @@ h1, h2 {
         width: 0.5em;
         height: 0.5em;
     }
-    .poslogo {
+    .poslogo1 {
+        left: 40%;
+    }
+    /* --logo Evénement page-- */
+    .poslogo2 {
         left: 40%;
     }
 }
 @media (max-width: 575.98px) {
-    .menu {
-        display: none;
-    }
     .navlink {
         font-size: 30px;
     }
@@ -114,7 +119,22 @@ h1, h2 {
         width: 0.5em;
         height: 0.5em;
     }
-    .poslogo {
-        left: 40%;
+    .poslogo1 {
+        left: 35%;
     }
+    /* --logo Evénement page-- */
+    .poslogo2 {
+        left: 35%;
+    }
+    .taillelogo {
+        font-size: 1.3em;
+    }
+}
+
+/* -----------------------------------------------Evénement page------------------------------------ */
+.pcard {
+    font-size: 1em;
+}
+.dropdown {
+    z-index: 2;
 }
